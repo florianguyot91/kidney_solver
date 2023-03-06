@@ -101,3 +101,7 @@ This is a (probably very incomplete) list of other software for kidney exchange.
 
 I'd be more than happy to try to answer any questions: james.trimble at yahoo.co.uk
 
+After fork command examples : 
+cmd /c 'python -m kidney_solver.kidney_solver 3 3 picef < example_data/MD-00001-00000100.input'
+cmd /c "python -m kidney_solver.count_cycles_and_chains 3 3 < example_data/MD-00001-00000100.input"
+
